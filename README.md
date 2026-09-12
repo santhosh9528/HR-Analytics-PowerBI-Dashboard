@@ -11,7 +11,7 @@ The project contains two main dashboard views:
 1. **HR Overview Dashboard**
 2. **Employee Attrition Dashboard**
 
-These dashboards help HR teams and management understand the overall workforce and identify employee attrition patterns that may require attention.
+These dashboards help HR teams and management understand workforce composition and identify employee attrition patterns that may require attention.
 
 ---
 
@@ -41,7 +41,7 @@ The following tools were used in this project:
 - **Power Query** – Data cleaning and transformation
 - **Microsoft Power BI** – Dashboard development
 - **DAX** – Measures and calculated metrics
-- **Data Modeling** – Relationships and analytical model
+- **Data Modeling** – Data preparation and analytical structure
 - **Data Visualization** – Interactive reports and charts
 
 ---
@@ -50,7 +50,7 @@ The following tools were used in this project:
 
 The **HR Overview Dashboard** provides a high-level view of the organization's workforce.
 
-It helps management understand overall employee information and workforce distribution using interactive KPIs and visualizations.
+It helps understand employee information and workforce distribution using interactive KPIs and visualizations.
 
 ### Analysis Includes
 
@@ -67,7 +67,7 @@ It helps management understand overall employee information and workforce distri
 
 ## 🖼️ HR Overview Dashboard Preview
 
-![HR Overview Dashboard](Screenshots/Hr%20Overview%20Dashboard.jpg)
+![HR Overview Dashboard](Hr%20Dashboard/Screenshot/Hr%20Overview%20Dashboard.jpg)
 
 ---
 
@@ -92,7 +92,7 @@ The objective is to identify employee groups experiencing higher attrition and h
 
 ## 🖼️ Attrition Dashboard Preview
 
-![Employee Attrition Dashboard](Screenshots/Attrition%20Dashboard.jpg)
+![Employee Attrition Dashboard](Hr%20Dashboard/Screenshot/Attrition%20Dashboard.jpg)
 
 ---
 
@@ -117,7 +117,7 @@ The data preparation process included:
 
 The cleaned HR dataset was loaded into Power BI and prepared for analysis.
 
-The data model supports:
+The analytical model supports:
 
 - KPI calculations
 - Employee analysis
@@ -127,13 +127,13 @@ The data model supports:
 - Attrition analysis
 - Interactive filtering
 
-The required relationships and analytical fields were configured before dashboard development.
+The required fields and relationships were prepared before dashboard development.
 
 ---
 
 # 🧮 DAX & Calculations
 
-Power BI DAX was used to create measures and calculations required for the dashboards.
+Power BI DAX was used to create measures and calculations required for dashboard analysis.
 
 The calculations support:
 
@@ -142,9 +142,9 @@ The calculations support:
 - Workforce KPIs
 - Employee Distribution
 - Percentage Calculations
-- Dashboard Analysis
+- Dynamic Dashboard Analysis
 
-These measures dynamically respond to filters and slicers.
+The measures respond dynamically to dashboard filters and slicers.
 
 ---
 
@@ -168,7 +168,7 @@ The project demonstrates the use of:
 
 # 🔍 HR Business Analysis
 
-The dashboards help answer questions such as:
+The dashboards help investigate questions such as:
 
 - How many employees are represented in the dataset?
 - How is the workforce distributed across departments?
@@ -184,7 +184,7 @@ The dashboards help answer questions such as:
 
 # 💡 Business Value
 
-The HR Analytics Dashboard can help management and HR teams:
+The HR Analytics Dashboard can help HR teams and management:
 
 - Monitor workforce KPIs
 - Understand workforce composition
@@ -202,18 +202,18 @@ The HR Analytics Dashboard can help management and HR teams:
 ```text
 HR-Analytics-PowerBI-Dashboard/
 │
-├── Dataset/
-│   └── HR_Dataset.xlsx
-│
-├── PowerBI/
-│   └── HR_Analytics_Dashboard.pbix
-│
-├── Screenshots/
-│   ├── Hr Overview Dashboard.jpg
-│   └── Attrition Dashboard.jpg
+├── Hr Dashboard/
+│   │
+│   ├── Screenshot/
+│   │   ├── Attrition Dashboard.jpg
+│   │   └── Hr Overview Dashboard.jpg
+│   │
+│   └── HR Analytics Dashboard.pbix
 │
 └── README.md
 ```
+
+> The exact files in the `Hr Dashboard` folder may vary depending on the dataset and Power BI files included in the repository.
 
 ---
 
@@ -251,7 +251,7 @@ This project demonstrates practical knowledge of:
 
 The goal of this project is to demonstrate how **Power BI can transform raw HR data into meaningful workforce insights**.
 
-The **HR Overview Dashboard** provides management with a consolidated view of workforce information, while the **Attrition Dashboard** helps identify employee turnover patterns and areas that may require HR attention.
+The **HR Overview Dashboard** provides a consolidated view of workforce information, while the **Employee Attrition Dashboard** helps identify employee turnover patterns and areas that may require HR attention.
 
 ---
 
@@ -259,7 +259,7 @@ The **HR Overview Dashboard** provides management with a consolidated view of wo
 
 This project demonstrates an end-to-end **HR Analytics workflow using Power BI**.
 
-By combining **data cleaning, Power Query, data modeling, DAX, and interactive visualizations**, the dashboards transform raw HR information into easy-to-understand analytical reports.
+By combining **data cleaning, Power Query, data modeling, DAX, and interactive visualizations**, the dashboards transform HR information into easy-to-understand analytical reports.
 
 The project demonstrates how Business Intelligence can support:
 
